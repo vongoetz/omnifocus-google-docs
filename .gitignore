@@ -1,3 +1,10 @@
+# Google credential files
+credentials.json
+token.pickle
+
+# Virtual environment files
+venv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
