@@ -2,7 +2,7 @@
 Automatically generates agendas on Google Docs from pre-existing Omnifocus Projects. Extracts a series of Projects and Tasks from Omnifocus (Standard)'s local DB, writes them to a Google Doc, formats, and shares the created file with specified users. 
 
 ## About
-If you're an Omnifocus user, you probably already know that it's a pretty robust project management system. Only problem is - it's not easy to export the data out of Omnifocus and into any other program, which makes integration with other systems cumbersome, and difficult. Here we present a quick-and-dirty solution in Python,  which may be customized to suit your needs. 
+If you're a user of Omnifocus, you probably already know that it's a pretty robust project management system. Only problem is - it's not easy to export the data out of Omnifocus and into any other program, which makes integration with other systems cumbersome, and difficult. Here we present a quick-and-dirty solution in Python,  which may be customized to suit your needs. 
 
 ## Omnifocus Specifics
 How information is mapped between Omnifocus & Google Docs: 
@@ -22,7 +22,7 @@ Best practice to use virtualenv, but not required.
 (1) Sign up/into Google's Developer Console: https://console.developers.google.com/
 
 (2) Create a project, and enable Docs and Drive APIs.
-- In project settings, for redirect URIs, setting to `localhost` for this purpose
+- In project settings, for redirect URIs, setting to `localhost` is sufficient for this purpose
 - See tutorial here: https://developers.google.com/docs/api/quickstart/python for more info
 
 (3) Download `credentials.json` and store in project root folder.
