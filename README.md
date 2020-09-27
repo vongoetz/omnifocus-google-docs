@@ -13,9 +13,10 @@ How information is mapped between Omnifocus & Google Docs:
 
 ## Setup
 From command line:
-(A) `git clone` repository to local box
-(B) `pip install -r requirements.txt` to install dependencies
-(Best practice to use virtualenv, but not required)
+(1) `git clone` repository to local box
+(2) `pip install -r requirements.txt` to install dependencies
+
+Best practice to use virtualenv, but not required.
 
 ## Usage / Directions
 (1) Sign up/into Google's Developer Console: https://console.developers.google.com/
