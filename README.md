@@ -11,7 +11,13 @@ How information is mapped between Omnifocus & Google Docs:
 - Script only pulls project names, and top-level tasks (no sub-tasks, though you can customize)
 - In the OmniFocus database structure, the `Task` table holds all task data, including project names
 
-## Setup / Directions
+## Setup
+From command line:
+(A) `git clone` repository to local box
+(B) `pip install -r requirements.txt` to install dependencies
+(Best practice to use virtualenv, but not required)
+
+## Usage / Directions
 (1) Sign up/into Google's Developer Console: https://console.developers.google.com/
 
 (2) Create a project, and enable Docs and Drive APIs.

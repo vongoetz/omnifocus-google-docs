@@ -1,6 +1,7 @@
 # Google credential files
 credentials.json
 token.pickle
+config*
 
 # Virtual environment files
 venv/
